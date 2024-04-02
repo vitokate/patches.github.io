@@ -296,21 +296,10 @@ table tr td
 
   border-top: 1px solid #FFF;}
 @media only screen and (max-width: 768px) {
-  /* Ajusta el contenedor del texto para que el espacio inferior acomode la imagen */
-  #content > div {
-    position: relative; /* Establece el contenedor de referencia para la imagen absolutamente posicionada */
-    padding-bottom: 200px; /* Espacio para la imagen en la parte inferior */
-  }
-
-  /* Estilos responsivos para la imagen */
   #content img[alt="welcome"] {
     display: block;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    max-width: 90%; /* El 90% del ancho del contenedor para un poco de margen */
+    margin: 20px auto; /* Agrega margen arriba y abajo para separar del texto */
+    max-width: 100%; /* Permite que la imagen sea tan ancha como su contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
-    position: absolute;
-    bottom: 10px; /* Espacio desde la parte inferior del contenedor */
-    left: 50%; /* Empuja la imagen a la mitad del contenedor */
-    transform: translateX(-50%); /* Centra la imagen horizontalmente con respecto a su tamaño */
   }
 }
