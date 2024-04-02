@@ -293,4 +293,12 @@ table tr th, table tr td
 table tr td
 { background: #F0EFE2;
   color: #47433F;
+
   border-top: 1px solid #FFF;}
+@media only screen and (max-width: 768px) {
+  img[alt="welcome"] {
+    width: 100%; /* Hace que la imagen sea responsiva y ocupe el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 0; /* Elimina el margen superior para que no se traslape con el texto */
+  }
+}
