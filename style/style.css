@@ -302,3 +302,9 @@ table tr td
     margin-top: 0; /* Elimina el margen superior para que no se traslape con el texto */
   }
 }
+#content img[alt="welcome"] {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-width: 100%;
+}
